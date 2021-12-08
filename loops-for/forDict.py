@@ -1,2 +1,7 @@
 def reverse_dict(dict):
-    # swap keys and values within dict and return dict
+    lo = {}
+    for k,v in dict.items():
+        lo[v] = k
+    return lo
+dict = {'first': 'первый', 'second': 'второй'}
+print(reverse_dict(dict))
