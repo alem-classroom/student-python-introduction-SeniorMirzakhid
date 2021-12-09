@@ -4,4 +4,3 @@ def insert_squares(arr, num):
     while i < num:
         arr.append(pow(i,2))
     return arr 
-print(insert_squares([1,2,3,4,5],5))
