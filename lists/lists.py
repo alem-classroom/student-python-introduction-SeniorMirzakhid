@@ -20,8 +20,7 @@ def delete_elem_from_list(list, index = -1):
 
 def count_elements_in_list(list, x):
     # count elements in the list that are equal to x and return the count
-    x = list.count()
-    return x
+    return list.count(x)
 
 def sort_list(list):
     # return sorted list
