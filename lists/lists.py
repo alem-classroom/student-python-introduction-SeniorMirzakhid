@@ -12,8 +12,8 @@ def delete_elem_from_list(list, index = -1):
     # if index is invalid, return empty list
     newList = []
     if index >= 0 and index < len(list):
-        newList = list.pop(index)
-        return newList
+        list = list.pop(index)
+        return list
     else:
         return newList
 
