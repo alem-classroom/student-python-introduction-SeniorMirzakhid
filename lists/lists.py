@@ -12,7 +12,6 @@ def delete_elem_from_list(list, index = -1):
     # if index is invalid, return empty list
     if list:
        list.pop(index)
-       return list
     else:
         return list
 
